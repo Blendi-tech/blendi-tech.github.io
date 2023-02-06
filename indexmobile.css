@@ -1,0 +1,83 @@
+@media only screen and (max-width: 700px) {
+
+	#backgrounddesktop {
+		display: none;
+	}
+	#backgroundtablet {
+		display: none;
+	}
+	#backgroundmobile {
+		display: inline-block;
+		position: absolute;
+	}
+	.menu {
+		display: none;
+	}
+
+	.mobilemenu {
+		display: inline-block;
+		position: fixed;
+		right: 0px;
+		-webkit-backdrop-filter: blur(20px);
+		backdrop-filter: blur(15px);
+		cursor: pointer;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		display: none;
+	}
+	#menuon {
+		display: inline-block;
+		position: absolute;
+		top: 35px;
+		right: 10%;
+		cursor: pointer;
+	}
+		#menuoff {
+		position: absolute;
+		top: 35px;
+		right: 10%;
+		cursor: pointer;
+	}
+	.mmenu {
+		position: absolute;
+		top: 15%;
+		left: 10%;
+		font-size: 30px;
+	}
+	.amenu {
+		display: block;
+		padding: 15px;
+	}
+	.b {
+		height: 80%;
+		width: 90%;
+		position: relative;
+		left: 5%;
+		top: 140px;
+			display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		align-items: center;
+		align-content: stretch;
+	}
+	.text {
+		width: 100%;
+	}
+	.explore {
+		height: 150px;
+		width: 150px;
+		left: 0px;
+		top: 25px;
+	}
+	.extext {
+		font-size: 20px;
+	}
+	#space {
+		font-size: 80px;
+	}
+	.extext {
+		right: 17%;
+	}
+}

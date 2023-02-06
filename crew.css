@@ -1,0 +1,313 @@
+
+  	#crewcontainer-engineer {
+  		position: fixed;
+  		top: 25%;
+  		left: 15%;
+  		width: 80%;
+  		height: 75%;
+  	}
+  	#crewcontainer-engineer {  display: none;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 0.3fr 2fr 0.7fr;
+  grid-auto-columns: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "crewhead crewhead"
+    "crewtext crewfig"
+    "crewtext crewfig";
+}
+
+.crewhead { grid-area: crewhead; }
+
+.crewtext {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "c1 c1 c1"
+    "c1 c1 c1"
+    "c2 c2 c2";
+  grid-area: crewtext;
+}
+
+.c1 { grid-area: c1; }
+
+.c2 { grid-area: c2; }
+
+.crewfig { grid-area: crewfig; }
+
+.crewhead {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.crewtext {
+	width: 80%;
+	margin-bottom: 0px;
+}
+.an {
+	display: inline-block;
+	margin: 10px;
+	cursor: pointer;
+}
+.c2 {
+  position: absolute;
+  bottom: 10%;
+}
+
+  #crewcontainer-commander {
+      position: fixed;
+      top: 25%;
+      left: 15%;
+      width: 80%;
+      height: 75%;
+    }
+    #crewcontainer-commander {  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 0.3fr 2fr 0.7fr;
+  grid-auto-columns: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "crewhead crewhead"
+    "crewtext crewfig"
+    "crewtext crewfig";
+}
+
+ #crewcontainer-pilot {
+      position: fixed;
+      top: 25%;
+      left: 15%;
+      width: 80%;
+      height: 75%;
+    }
+    #crewcontainer-pilot {  display: none;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 0.3fr 2fr 0.7fr;
+  grid-auto-columns: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "crewhead crewhead"
+    "crewtext crewfig"
+    "crewtext crewfig";
+}
+
+ #crewcontainer-specialist {
+      position: fixed;
+      top: 25%;
+      left: 15%;
+      width: 80%;
+      height: 75%;
+    }
+    #crewcontainer-specialist {  display: none;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 0.3fr 2fr 0.7fr;
+  grid-auto-columns: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "crewhead crewhead"
+    "crewtext crewfig"
+    "crewtext crewfig";
+}
+
+.h01 {
+  font-size: 27px;
+  }
+
+.pick {
+  font-size: 40px;
+   letter-spacing: .1rem;
+    margin: 10px;
+}
+.ptext { 
+  color: white;
+   width: 80%;
+   }
+
+@media only screen and (max-width: 1100px) {
+
+    #crewcontainer-commander {
+      position: fixed;
+      top: 25%;
+      left: 5%;
+      width: 90%;
+      height: 75%;
+    }
+    .crewfig {
+      height: 70%;
+      width: 50%;
+    }
+
+     #crewcontainer-pilot {
+      position: fixed;
+      top: 25%;
+      left: 5%;
+      width: 90%;
+      height: 75%;
+    }
+    .crewfig {
+      height: 70%;
+      width: 50%;
+    }
+
+     #crewcontainer-specialist {
+      position: fixed;
+      top: 25%;
+      left: 5%;
+      width: 90%;
+      height: 75%;
+    }
+    .crewfig {
+      height: 70%;
+      width: 50%;
+    }
+
+     #crewcontainer-engineer {
+      position: fixed;
+      top: 25%;
+      left: 5%;
+      width: 90%;
+      height: 75%;
+    }
+    .crewfig {
+      height: 70%;
+      width: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+
+#crewcontainer-commander {
+  position: fixed;
+  top: 15%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.4fr 1.2fr 1.4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "crewhead"
+    "crewtext"
+    "crewfig";
+  width: 80%;
+  height: 50%;
+}
+
+.crewhead {
+  justify-self: center;
+  grid-area: crewhead;
+}
+
+.crewtext {  display: grid;
+  grid-template-columns: 1.6fr 0.4fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "c1 c2";
+  grid-area: crewtext;
+}
+
+.c1 {
+  justify-self: center;
+  align-self: center;
+  grid-area: c1;
+}
+
+.c2 {
+  justify-self: center;
+  align-self: center;
+  grid-area: c2;
+}
+
+.c2 {
+  position: fixed;
+  right: 5%;
+  top: 40%;
+}
+
+.crewfig {
+  justify-self: center;
+  align-self: start;
+  grid-area: crewfig;
+}
+
+    .h01 {
+      font-size: 16px;
+    }
+    .pick {
+      font-size: 18px;
+    }
+
+        .an {
+      display: block;
+      margin: 15px;
+      width: 10px;
+      height: 10px;
+    }
+    .crewfig {
+      margin-top: 4%;
+      height: 40%;
+    }
+    .crewtext {
+      width: 100%;
+    }
+
+#crewcontainer-pilot {
+  position: fixed;
+  top: 15%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.4fr 1.2fr 1.4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "crewhead"
+    "crewtext"
+    "crewfig";
+  width: 80%;
+  height: 50%;
+}
+
+#crewcontainer-specialist {
+  position: fixed;
+  top: 15%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.4fr 1.2fr 1.4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "crewhead"
+    "crewtext"
+    "crewfig";
+  width: 80%;
+  height: 50%;
+}
+
+#crewcontainer-engineer {
+  position: fixed;
+  top: 15%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.4fr 1.2fr 1.4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "crewhead"
+    "crewtext"
+    "crewfig";
+  width: 80%;
+  height: 50%;
+}
+
+
+}

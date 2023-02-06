@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@100&family=Roboto+Condensed:wght@400&family=Roboto+Mono:wght@200&family=Xanh+Mono&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="indextablets.css">
+    <link rel="stylesheet" type="text/css" href="indexmobile.css">
+
+    <link rel="stylesheet" type="text/css" href="destination.css">
+
+	<title>Destination</title>
+</head>
+<body>
+	<img id="background" src="./assets/destination/background-destination-desktop.jpg" width="100%" height="100%">
+  <img id="backgroundtablet" src="./assets/destination/background-destination-tablet.jpg" width="100%" height="100%">
+  <img id="backgroundmobile" src="./assets/destination/background-destination-mobile.jpg" width="100%" height="100%">
+
+  <div class="a">
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+      </div>
+
+      <div class="menu">
+        <a href="index.html"><b class="nr">00 </b> HOME</a>
+        <a href="destination.html"><b class="nr">01 </b> DESTINATION</a>
+        <a href="crew.html"><b class="nr">02 </b> CREW</a>
+        <a href="technology.html"><b class="nr">03 </b> TECHNOLOGY</a>
+      </div>
+
+        <svg id="menuon" onclick="on()" xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
+
+
+      <div class="mobilemenu">
+          <div class="mmenu">
+            <a class="amenu" href="index.html"><b class="nr">00 </b> HOME</a>
+            <a class="amenu" href="destination.html"><b class="nr">01 </b> DESTINATION</a>
+            <a class="amenu" href="crew.html"><b class="nr">02 </b> CREW</a>
+            <a class="amenu" href="technology.html"><b class="nr">03 </b> TECHNOLOGY</a>
+          </div>
+
+          <svg id="menuoff" onclick="off()" xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
+      </div>
+  </div>
+
+
+<div class="container">
+<div class="containermoon">
+				  <div class="head"><h1 class="h01">01</h1> <h1 class="pick"> Pick your destination</h1></div>
+
+				  <div class="n">
+				  	<a class="a1" style="border-bottom: solid white;" href="#" onclick="moon()">Moon</a>
+					  <a class="a1" href="#" onclick="mars()">Mars</a>
+					  <a class="a1" href="#" onclick="europa()">Europa</a>
+					  <a class="a1" href="#" onclick="titan()">Titan</a>	
+
+				  </div>
+
+				  <div class="text">
+				  	<h1 class="h1moon">Moon</h1> 
+				  	<p class="ptext">
+						See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+				  		regain perspective and come back refreshed. While you’re there, take in some history 
+				  		by visiting the Luna 2 and Apollo 11 landing sites.</p>
+
+				  		<hr>
+				  </div>
+
+				  <div class="fig">
+				  	<img id="destimg" src="./assets/destination/image-moon.png">
+				  </div>
+
+						 <div class="p">
+						 	<div>
+							 <p class="avg">Avg. distance</p>
+							  <h2 class="km">384,400 km</h2>
+							</div>
+
+							<div>
+							  <p class="avg">Est. travel time</p>
+							 <h2 class="km"> 3 days</h2> 
+							</div>
+						</div>
+</div>
+
+							
+<div class="containermars">
+							  <div class="head"><h1 class="h01">01</h1> <h1 class="pick"> Pick your destination</h1></div>
+
+							  <div class="n">
+							  	<a class="a1" href="#" onclick="moon()">Moon</a>
+								  <a class="a1" style="border-bottom: solid white;" href="#" onclick="mars()">Mars</a>
+								  <a class="a1" href="#" onclick="europa()">Europa</a>
+								  <a class="a1" href="#" onclick="titan()">Titan</a>	
+
+							  </div>
+
+							  <div class="text">
+							  	<h1 class="h1moon">Mars</h1> 
+							  	<p class="ptext">
+									Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+  									the tallest planetary mountain in our solar system. It’s two and a half times 
+  									the size of Everest!</p>
+
+							  		<hr>
+							  </div>
+
+							  <div class="fig">
+							  	<img id="destimg" src="./assets/destination/image-mars.png">
+							  </div>
+
+									 <div class="p">
+									 	<div>
+										 <p class="avg">Avg. distance</p>
+										  <h2 class="km">225 mil. km</h2>
+										</div>
+
+										<div>
+										  <p class="avg">Est. travel time</p>
+										 <h2 class="km">9 months</h2> 
+										</div>
+									</div>
+</div>
+
+
+
+<div class="containereuropa">
+							  <div class="head"><h1 class="h01">01</h1> <h1 class="pick"> Pick your destination</h1></div>
+
+							  <div class="n">
+							  	<a class="a1" href="#" onclick="moon()">Moon</a>
+								  <a class="a1" href="#" onclick="mars()">Mars</a>
+								  <a class="a1" style="border-bottom: solid white;" href="#" onclick="europa()">Europa</a>
+								  <a class="a1" href="#" onclick="titan()">Titan</a>	
+
+							  </div>
+
+							  <div class="text">
+							  	<h1 class="h1moon">Europa</h1> 
+							  	<p class="ptext">
+										The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+										  winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+										  ice skating, curling, hockey, or simple relaxation in your snug 
+										  wintery cabin.</p>
+
+							  		<hr>
+							  </div>
+
+							  <div class="fig">
+							  	<img id="destimg" src="./assets/destination/image-europa.png">
+							  </div>
+
+									 <div class="p">
+									 	<div>
+										 <p class="avg">Avg. distance</p>
+										  <h2 class="km">628 mil. km</h2>
+										</div>
+
+										<div>
+										  <p class="avg">Est. travel time</p>
+										 <h2 class="km">3 years</h2> 
+										</div>
+									</div>
+</div>
+
+
+
+<div class="containertitan">
+							  <div class="head"><h1 class="h01">01</h1> <h1 class="pick"> Pick your destination</h1></div>
+
+							  <div class="n">
+							  	<a class="a1" href="#" onclick="moon()">Moon</a>
+								  <a class="a1" href="#" onclick="mars()">Mars</a>
+								  <a class="a1" href="#" onclick="europa()">Europa</a>
+								  <a class="a1" style="border-bottom: solid white;" href="#" onclick="titan()">Titan</a>	
+							  </div>
+
+							  <div class="text">
+							  	<h1 class="h1moon">Titan</h1> 
+							  	<p class="ptext">
+										The only moon known to have a dense atmosphere other than Earth, Titan 
+									  is a home away from home (just a few hundred degrees colder!). As a 
+									  bonus, you get striking views of the Rings of Saturn.</p>
+
+							  		<hr>
+							  </div>
+
+							  <div class="fig">
+							  	<img id="destimg" src="./assets/destination/image-titan.png">
+							  </div>
+
+									 <div class="p">
+									 	<div>
+										 <p class="avg">Avg. distance</p>
+										  <h2 class="km">1.6 bil. km</h2>
+										</div>
+
+										<div>
+										  <p class="avg">Est. travel time</p>
+										 <h2 class="km">7 years</h2> 
+										</div>
+									</div>
+</div>
+</div>
+
+
+<div class="containermobile">
+<div class="containermobilemoon">
+				  <div class="head"><h1 class="h01">01</h1> <h1 class="pick"> Pick your destination</h1></div>
+
+				  <div class="n">
+				  	<a class="a1" style="border-bottom: solid white;" href="#" onclick="mobilemoon()">Moon</a>
+					  <a class="a1" href="#" onclick="mobilemars()">Mars</a>
+					  <a class="a1" href="#" onclick="mobileeuropa()">Europa</a>
+					  <a class="a1" href="#" onclick="mobiletitan()">Titan</a>	
+
+				  </div>
+
+				  <div class="text">
+				  	<h1 class="h1moon">Moon</h1> 
+				  	<p class="ptext">
+						See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+				  		regain perspective and come back refreshed. While you’re there, take in some history 
+				  		by visiting the Luna 2 and Apollo 11 landing sites.</p>
+
+				  		<hr>
+				  </div>
+
+				  <div class="fig">
+				  	<img id="destimg" src="./assets/destination/image-moon.png">
+				  </div>
+
+						 <div class="p">
+						 	<div>
+							 <p class="avg">Avg. distance</p>
+							  <h2 class="km">384,400 km</h2>
+							</div>
+
+							<div>
+							  <p class="avg">Est. travel time</p>
+							 <h2 class="km"> 3 days</h2> 
+							</div>
+						</div>
+</div>
+
+							
+<div class="containermobilemars">
+							  <div class="head"><h1 class="h01">01</h1> <h1 class="pick"> Pick your destination</h1></div>
+
+							  <div class="n">
+				  	<a class="a1" href="#" onclick="mobilemoon()">Moon</a>
+					  <a class="a1" style="border-bottom: solid white;" href="#" onclick="mobilemars()">Mars</a>
+					  <a class="a1" href="#" onclick="mobileeuropa()">Europa</a>
+					  <a class="a1" href="#" onclick="mobiletitan()">Titan</a>		
+
+							  </div>
+
+							  <div class="text">
+							  	<h1 class="h1moon">Mars</h1> 
+							  	<p class="ptext">
+									Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+  									the tallest planetary mountain in our solar system. It’s two and a half times 
+  									the size of Everest!</p>
+
+							  		<hr>
+							  </div>
+
+							  <div class="fig">
+							  	<img id="destimg" src="./assets/destination/image-mars.png">
+							  </div>
+
+									 <div class="p">
+									 	<div>
+										 <p class="avg">Avg. distance</p>
+										  <h2 class="km">225 mil. km</h2>
+										</div>
+
+										<div>
+										  <p class="avg">Est. travel time</p>
+										 <h2 class="km">9 months</h2> 
+										</div>
+									</div>
+</div>
+
+
+
+<div class="containermobileeuropa">
+							  <div class="head"><h1 class="h01">01</h1> <h1 class="pick"> Pick your destination</h1></div>
+
+							  <div class="n">
+				  	<a class="a1" href="#" onclick="mobilemoon()">Moon</a>
+					  <a class="a1" href="#" onclick="mobilemars()">Mars</a>
+					  <a class="a1" style="border-bottom: solid white;" href="#" onclick="mobileeuropa()">Europa</a>
+					  <a class="a1" href="#" onclick="mobiletitan()">Titan</a>		
+
+							  </div>
+
+							  <div class="text">
+							  	<h1 class="h1moon">Europa</h1> 
+							  	<p class="ptext">
+										The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+										  winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+										  ice skating, curling, hockey, or simple relaxation in your snug 
+										  wintery cabin.</p>
+
+							  		<hr>
+							  </div>
+
+							  <div class="fig">
+							  	<img id="destimg" src="./assets/destination/image-europa.png">
+							  </div>
+
+									 <div class="p">
+									 	<div>
+										 <p class="avg">Avg. distance</p>
+										  <h2 class="km">628 mil. km</h2>
+										</div>
+
+										<div>
+										  <p class="avg">Est. travel time</p>
+										 <h2 class="km">3 years</h2> 
+										</div>
+									</div>
+</div>
+
+
+
+<div class="containermobiletitan">
+							  <div class="head"><h1 class="h01">01</h1> <h1 class="pick"> Pick your destination</h1></div>
+
+							  <div class="n">
+				  	<a class="a1" href="#" onclick="mobilemoon()">Moon</a>
+					  <a class="a1" href="#" onclick="mobilemars()">Mars</a>
+					  <a class="a1" href="#" onclick="mobileeuropa()">Europa</a>
+					  <a class="a1" style="border-bottom: solid white;" href="#" onclick="mobiletitan()">Titan</a>		
+							  </div>
+
+							  <div class="text">
+							  	<h1 class="h1moon">Titan</h1> 
+							  	<p class="ptext">
+										The only moon known to have a dense atmosphere other than Earth, Titan 
+									  is a home away from home (just a few hundred degrees colder!). As a 
+									  bonus, you get striking views of the Rings of Saturn.</p>
+
+							  		<hr>
+							  </div>
+
+							  <div class="fig">
+							  	<img id="destimg" src="./assets/destination/image-titan.png">
+							  </div>
+
+									 <div class="p">
+									 	<div>
+										 <p class="avg">Avg. distance</p>
+										  <h2 class="km">1.6 bil. km</h2>
+										</div>
+
+										<div>
+										  <p class="avg">Est. travel time</p>
+										 <h2 class="km">7 years</h2> 
+										</div>
+									</div>
+</div>
+</div>
+
+
+
+
+  	<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+body {
+	margin: 0px;
+}
+
+#background {
+	position: fixed;
+}
+
+#backgroundtablet {
+	display: none;
+}
+#backgroundmobile {
+	display: none;
+}
+.mobilemenu {
+	display: none;
+}
+#menuon {
+	display: none;
+}
+.a {
+	width: 90%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+.logo {
+	margin-top: 20px;
+}
+.menu {
+	padding: 30px;
+	padding-right: 80px;
+	padding-left: 100px;
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
+}
+a {
+	padding: 10px;
+	padding-bottom: 30px;
+	margin: 30px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: .1rem; 
+}
+a:hover {
+	border-bottom: solid white;
+}
+.b {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: stretch;
+}
+.text {
+	width: 30%;
+	color: white;
+}
+.explore {
+	position: relative;
+	cursor: pointer;
+	text-align: center;
+	background-color: white;
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+}
+.explore:hover {
+	background-color: #EFEFEF;
+}
+.extext {
+	position: absolute;
+	right: 18%;
+	top: 25%;
+	cursor: pointer;
+	font-size: 35px;
+	font-family: system-ui;
+	letter-spacing: .2rem; 
+}
+#so {
+	color: #EFEFEF;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
+	margin: 0px;
+}
+#space {
+	font-size: 120px;
+	text-transform: uppercase;
+	margin: 15px;
+	font-family: 'Aboreto', cursive;
+}
+#let {
+	color: #C3C3C3;
+	font-size: 14px;
+	font-family: 'Roboto Mono', monospace;
+	margin: 0px;
+
+}

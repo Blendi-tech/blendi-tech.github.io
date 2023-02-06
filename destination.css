@@ -1,0 +1,380 @@
+		.containermobile {
+			display: none;
+		}
+		.containermoon {
+			position: relative;
+			top: 180px;
+			left: 15%;
+			width: 80%;
+			height: 70%;
+		}
+
+		.containermoon {  display: grid;
+		  grid-template-columns: 1.2fr 1fr 1.4fr;
+		  grid-template-rows: 0.3fr 0.6fr 2.5fr 0.6fr;
+		  gap: 5px 5px;
+		  grid-auto-flow: row;
+		  grid-template-areas:
+		    "head head head"
+		    "fig fig n"
+		    "fig fig text"
+		    "fig fig p";
+		}
+
+.head { grid-area: head; }
+
+.n { grid-area: n; }
+
+.text { grid-area: text; }
+
+.fig { grid-area: fig; }
+
+.p { grid-area: p; }
+
+	.text {
+		width: 80%;
+	}
+	.n {
+		width: 100%;
+	}
+	.p {
+		width: 100%;
+		display: inline-block;
+	}
+
+	.a1 {
+		padding: 5px;
+		margin: 5px;
+		text-transform: uppercase;
+	}
+	.h01 {
+		font-family: 'Raleway', sans-serif;
+		margin-right: 15px;
+		color: gray;
+		display: inline-block;
+	}
+	.pick {
+		font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+		display: inline-block;
+		color: white;
+		font-size: 24px;
+		letter-spacing: 5px;
+	}
+	.fig {
+		position: absolute;
+		top: 5%;
+		left: 15%;
+	}
+	.h1moon {
+		text-transform: uppercase;
+		margin: 5px;
+		font-size: 80px;
+		font-family: 'Raleway', sans-serif;
+	}
+	.ptext {
+		font-family: 'Raleway', sans-serif;
+		line-height: 25px;
+	}
+	.p {
+		width: 70%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	}
+	.avg {
+		text-transform: uppercase;
+		color: white;
+		font-family: 'Raleway', sans-serif;
+	}
+	.km {
+		text-transform: uppercase;
+		color: white;
+		font-family: 'Raleway', sans-serif;
+	}
+
+
+
+
+
+
+.containermars {
+			position: relative;
+			top: 180px;
+			left: 15%;
+			width: 80%;
+			height: 70%;
+		display: none;
+		  grid-template-columns: 1.2fr 1fr 1.4fr;
+		  grid-template-rows: 0.3fr 0.6fr 2.5fr 0.6fr;
+		  gap: 5px 5px;
+		  grid-auto-flow: row;
+		  grid-template-areas:
+		    "head head head"
+		    "fig fig n"
+		    "fig fig text"
+		    "fig fig p";
+		}
+
+.head { grid-area: head; }
+
+.n { grid-area: n; }
+
+.text { grid-area: text; }
+
+.fig { grid-area: fig; }
+
+.p { grid-area: p; }
+		
+
+
+
+
+.containereuropa {
+			position: relative;
+			top: 180px;
+			left: 15%;
+			width: 80%;
+			height: 70%;
+		display: none;
+		  grid-template-columns: 1.2fr 1fr 1.4fr;
+		  grid-template-rows: 0.3fr 0.6fr 2.5fr 0.6fr;
+		  gap: 5px 5px;
+		  grid-auto-flow: row;
+		  grid-template-areas:
+		    "head head head"
+		    "fig fig n"
+		    "fig fig text"
+		    "fig fig p";
+		}
+
+.head { grid-area: head; }
+
+.n { grid-area: n; }
+
+.text { grid-area: text; }
+
+.fig { grid-area: fig; }
+
+.p { grid-area: p; }
+		
+
+
+
+
+.containertitan {
+			position: relative;
+			top: 180px;
+			left: 15%;
+			width: 80%;
+			height: 70%;
+		display: none;
+		  grid-template-columns: 1.2fr 1fr 1.4fr;
+		  grid-template-rows: 0.3fr 0.6fr 2.5fr 0.6fr;
+		  gap: 5px 5px;
+		  grid-auto-flow: row;
+		  grid-template-areas:
+		    "head head head"
+		    "fig fig n"
+		    "fig fig text"
+		    "fig fig p";
+		}
+
+.head { grid-area: head; }
+
+.n { grid-area: n; }
+
+.text { grid-area: text; }
+
+.fig { grid-area: fig; }
+
+.p { grid-area: p; }
+		
+
+
+
+@media only screen and (max-width: 1100px) {
+
+		.containermoon {
+			position: absolute;
+			top: 140px;
+			left: 0%;
+			width: 100%;
+			height: 50%;
+		}
+		#destimg {
+			width: 380px;
+			height: 370px;
+		}
+		.p {
+			width: 90%;
+		}
+		.head {
+			margin-left: 10px;
+		}
+
+		.containermars {
+			position: absolute;
+			top: 140px;
+			left: 0%;
+			width: 100%;
+			height: 50%;
+		}
+		#destimg {
+			width: 380px;
+			height: 370px;
+		}
+		.p {
+			width: 90%;
+		}
+		.head {
+			margin-left: 10px;
+		}
+
+		.containereuropa {
+			position: absolute;
+			top: 140px;
+			left: 0%;
+			width: 100%;
+			height: 50%;
+		}
+		#destimg {
+			width: 380px;
+			height: 370px;
+		}
+		.p {
+			width: 90%;
+		}
+		.head {
+			margin-left: 10px;
+		}
+
+		.containertitan {
+			position: absolute;
+			top: 140px;
+			left: 0%;
+			width: 100%;
+			height: 50%;
+		}
+		#destimg {
+			width: 380px;
+			height: 370px;
+		}
+		.p {
+			width: 90%;
+		}
+		.head {
+			margin-left: 10px;
+		}
+}
+
+@media only screen and (max-width: 700px) {
+	.container {
+		display: none;
+	}
+	.containermobile {
+		display: block;
+	}
+
+	.containermobilemoon { 
+		position: fixed;
+		top: 80px;
+		display: block;
+		text-align: center;
+	}
+	.containermobilemars {
+				position: fixed;
+		top: 80px;
+		display: block;
+		text-align: center;
+		display: none;
+	}
+	.containermobileeuropa {
+				position: fixed;
+		top: 80px;
+		display: block;
+		text-align: center;
+		display: none;
+	}
+	.containermobiletitan {
+				position: fixed;
+		top: 80px;
+		display: block;
+		text-align: center;
+		display: none;
+	}
+	.fig {
+		position: relative;
+		width: 70%;
+	}
+				#destimg {
+			width: 240px;
+			height: 230px;
+		}
+
+		.h01 {
+		font-family: 'Raleway', sans-serif;
+		margin-right: 5px;
+		color: gray;
+		display: inline-block;
+		font-size: 17px;
+	}
+	.pick {
+		font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+		display: inline-block;
+		color: white;
+		font-size: 14px;
+		letter-spacing: 2px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.a1 {
+		font-size: 20px;
+	}
+	.text {
+		width: 90%;
+		position: relative;
+		left: 5%;
+	}
+	.p {
+		width: 90%;
+		position: absolute;
+		left: 5%;
+		margin-top: 20px;
+	}
+		.ptext {
+		line-height: 17px;
+		font-size: 14px;
+	}
+
+	.h1moon {
+		margin-top: 15px;
+		font-size: 65px;
+	}
+
+			.containermars { 
+		position: absolute;
+		top: 80px;
+		display: none;
+		text-align: center;
+	}
+	.avg {
+		font-size: 14px;
+		margin: 5px;
+	}
+	.km {
+		font-size: 19px;
+		margin: 5px;
+	}
+
+	.containermobilemars { 
+		position: fixed;
+		top: 80px;
+		display: none;
+		text-align: center;
+	}
+}

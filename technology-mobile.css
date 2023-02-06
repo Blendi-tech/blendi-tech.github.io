@@ -1,0 +1,127 @@
+@media only screen and (max-width: 700px) {
+
+.border-number {
+  width: 35px !important; height: 35px !important; border-radius: 50%; border: 1px solid gray; margin: 10px !important; cursor: pointer; 
+}
+h2 {
+  position: relative;
+  bottom: 13px !important;
+  font-size: 20px !important;
+}
+
+.h01 {
+  font-size: 20px !important;
+}
+.pick {
+  font-size: 20px !important;
+}
+  .container-vehicle {
+    position: absolute;
+    top: 20% !important;
+    left: 5% !important;
+    height: 60% !important;
+  }
+
+
+  .container-vehicle {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head"
+    "body";
+}
+
+.head {
+  justify-self: center;
+  align-self: end;
+  grid-area: head;
+}
+
+.body {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.6fr 1.2fr 1.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "b1"
+    "b2"
+    "b3";
+  grid-area: body;
+}
+  .body {
+    height: 65% !important;
+  }
+
+.b1 {
+  justify-self: center;
+  align-self: center;
+  grid-area: b1;
+}
+
+.b2 {
+  justify-self: center;
+  grid-area: b2;
+}
+
+.b3 {
+  justify-self: center;
+  align-self: end;
+  grid-area: b3;
+}
+
+
+.b2 {
+  width: 100% !important;
+  text-align: center !important;
+}
+.b3 {
+  margin-top: 10px !important;
+  width: 60% !important;
+}
+
+.ptext {
+  width: 100% !important;
+  line-height: 25px !important;
+}
+
+
+.container-capsule {
+    top: 15%;
+    left: 5%;
+    height: 85%;
+  
+  }
+
+
+  .container-capsule {  display: none;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head"
+    "body";
+}
+
+
+.container-spaceport {
+    top: 15%;
+    left: 5%;
+    height: 85%;
+  }
+  .body {
+    height: 80%;
+  }
+
+
+  .container-spaceport {  display: none;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head"
+    "body";
+}

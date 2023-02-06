@@ -1,0 +1,86 @@
+
+.container-vehicle {
+	position: absolute;
+	top: 25%;
+	right: 0%;
+}
+
+.container-vehicle {  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1.7fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head"
+    "body";
+  width: 85%;
+  height: 70%;
+}
+
+.head { grid-area: head; }
+
+.body {  display: grid;
+  grid-template-columns: 0.5fr 1.4fr 1.1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  align-items: center;
+  grid-template-areas:
+    "b1 b2 b3";
+  grid-area: body;
+}
+
+.b1 { grid-area: b1; }
+
+.b2 { grid-area: b2; }
+
+.b3 { grid-area: b3; }
+
+
+.b3 {
+	margin-left: 40px;
+}
+
+
+.container-capsule {
+  position: absolute;
+  top: 25%;
+  right: 0%;
+}
+
+.container-capsule {  
+  display: none;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1.7fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head"
+    "body";
+  width: 85%;
+  height: 50%;
+}
+
+.container-spaceport {
+  position: absolute;
+  top: 25%;
+  right: 0%;
+}
+
+.container-spaceport {  
+  display: none;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1.7fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head"
+    "body";
+  width: 85%;
+  height: 50%;
+}
+
+
+
+}
